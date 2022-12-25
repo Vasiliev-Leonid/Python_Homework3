@@ -69,20 +69,20 @@
 #%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D0%B8%20%D1%87%D0%B8%D1%81%D0%B5
 #%D0%BB%20%D0%A4%D0%B8%D0%B1%D0%BE%D0%BD%D0%B0%D1%87%D1%87%D0%B8.)
 
-n = int(input('Введите число: '))
+# n = int(input('Enter your number: '))
 
-def get_fibonacci(n):
-    fibo_nums = []
-    a, b = 1, 1
-    for i in range(n-1):
-        fibo_nums.append(a)
-        a, b = b, a + b
-    a, b = 0, 1
-    for i in range (n):
-        fibo_nums.insert(0, a)
-        a, b = b, a - b
-    return fibo_nums
+# def get_fibonacci(n):
+#     fbn_nums = []
+#     a, b = 1, 1
+#     for i in range(n-1):
+#         fbn_nums.append(a)
+#         a, b = b, a + b
+#     a, b = 0, 1
+#     for i in range (n):
+#         fbn_nums.insert(0, a)
+#         a, b = b, a - b
+#     return fbn_nums
 
-fibo_nums = get_fibonacci(n)
-print(get_fibonacci(n))
-print(fibo_nums.index(0))
+# fbn_nums = get_fibonacci(n)
+# print(get_fibonacci(n))
+# print(fbn_nums.index(0))
